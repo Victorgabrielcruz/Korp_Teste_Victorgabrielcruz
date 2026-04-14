@@ -1,0 +1,41 @@
+# Node / Angular
+node_modules/
+dist/
+.angular/
+*.log
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Docker volumes
+data/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java / Spring Boot
+*.class
+*.jar
+*.war
+target/
+.mvn/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv/
