@@ -1,0 +1,35 @@
+<h2>Notas Fiscais</h2>
+
+<table>
+  <tr>
+    <th>Número</th>
+    <th>Status</th>
+    <th>Data</th>
+    <th>Itens</th>
+    <th>Ação</th>
+  </tr>
+
+  <tr *ngFor="let inv of invoices">
+    <td>{{ inv.number }}</td>
+    <td>{{ inv.status }}</td>
+    <td>{{ inv.createdAt | date:'dd/MM/yyyy HH:mm' }}</td>
+
+    <td>
+      <ul>
+        <li *ngFor="let item of inv.items">
+          {{ item.productCode }} - {{ item.quantity }}
+        </li>
+      </ul>
+    </td>
+
+    <td>
+      <button
+        (click)="print(inv.id)"
+        [disabled]="inv.status !== 'Aberta' || loadingId === inv.id"
+      >
+        <span *ngIf="loadingId === inv.id">Imprimindo...</span>
+        <span *ngIf="loadingId !== inv.id">Imprimir</span>
+      </button>
+    </td>
+  </tr>
+</table>

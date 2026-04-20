@@ -1,0 +1,36 @@
+services:
+  # Microsserviço de Estoque (Produtos)
+  stock-service:
+    build:
+      context: ./stock-service
+      dockerfile: Dockerfile
+    container_name: stock-service
+    ports:
+      - "5001:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      # Mantido o host c-6 que já estava configurado para o estoque
+      - ConnectionStrings__DefaultConnection=Host=ep-red-mouse-antrzzze-pooler.c-6.us-east-1.aws.neon.tech;Port=5432;Database=neondb;Username=neondb_owner;Password=npg_dlUbB79ZKGnS;SSL Mode=Require;Trust Server Certificate=true
+    networks:
+      - microservices-net
+
+  # Microsserviço de Faturamento (Notas Fiscais)
+  billing-service:
+    build:
+      context: ./billing-service
+      dockerfile: Dockerfile
+    container_name: billing-service
+    ports:
+      - "5002:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      # AJUSTE: Adicionado o ".c-5." e "Trust Server Certificate=true" para bater com o seu teste de psql
+      - ConnectionStrings__DefaultConnection=Host=ep-orange-smoke-ama9m69v-pooler.c-5.us-east-1.aws.neon.tech;Port=5432;Database=neondb;Username=neondb_owner;Password=npg_r5ketsfz2VNd;SSL Mode=Require;Trust Server Certificate=true
+    depends_on:
+      - stock-service
+    networks:
+      - microservices-net
+
+networks:
+  microservices-net:
+    driver: bridge

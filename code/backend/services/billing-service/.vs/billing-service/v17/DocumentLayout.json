@@ -1,12 +1,279 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\infrastructure\\stockclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:infrastructure\\stockclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\dtos\\responseinvoiceitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:dtos\\responseinvoiceitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\dtos\\responseinvoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:dtos\\responseinvoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\dtos\\createinvoiceitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:dtos\\createinvoiceitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\dtos\\createinvoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:dtos\\createinvoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\service\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:service\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\models\\enums\\invoicestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:models\\enums\\invoicestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\service\\interfaces\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:service\\interfaces\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|c:\\users\\vgppl\\documents\\korp_teste_victorgabrielcruz\\code\\backend\\services\\billing-service\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA78E82-AC6F-48D1-A782-01CE8B118B48}|billing-service.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:41:15.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-20T04:40:58.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoiceController.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "Controllers\\InvoiceController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:35:07.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateInvoiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\DTOs\\CreateInvoiceDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateInvoiceDTO.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\DTOs\\CreateInvoiceDTO.cs",
+              "RelativeToolTip": "DTOs\\CreateInvoiceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:06:58.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateInvoiceItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\DTOs\\CreateInvoiceItemDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateInvoiceItemDTO.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\DTOs\\CreateInvoiceItemDTO.cs",
+              "RelativeToolTip": "DTOs\\CreateInvoiceItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:07:53.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResponseInvoiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\DTOs\\ResponseInvoiceDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ResponseInvoiceDTO.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\DTOs\\ResponseInvoiceDTO.cs",
+              "RelativeToolTip": "DTOs\\ResponseInvoiceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:09:21.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResponseInvoiceItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\DTOs\\ResponseInvoiceItemDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ResponseInvoiceItemDTO.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\DTOs\\ResponseInvoiceItemDTO.cs",
+              "RelativeToolTip": "DTOs\\ResponseInvoiceItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:10:12.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Service\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "Service\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Service\\InvoiceService.cs",
+              "RelativeToolTip": "Service\\InvoiceService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwFkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:18:33.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StockClient.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Infrastructure\\StockClient.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\StockClient.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Infrastructure\\StockClient.cs",
+              "RelativeToolTip": "Infrastructure\\StockClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:31:18.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-20T04:42:06.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InvoiceItem.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Models\\InvoiceItem.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceItem.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Models\\InvoiceItem.cs",
+              "RelativeToolTip": "Models\\InvoiceItem.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:23:13.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InvoiceStatus.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Models\\Enums\\InvoiceStatus.cs",
+              "RelativeDocumentMoniker": "Models\\Enums\\InvoiceStatus.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Models\\Enums\\InvoiceStatus.cs",
+              "RelativeToolTip": "Models\\Enums\\InvoiceStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:23:09.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IInvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Service\\Interfaces\\IInvoiceService.cs",
+              "RelativeDocumentMoniker": "Service\\Interfaces\\IInvoiceService.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Service\\Interfaces\\IInvoiceService.cs",
+              "RelativeToolTip": "Service\\Interfaces\\IInvoiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:16:36.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Models\\Invoice.cs",
+              "RelativeToolTip": "Models\\Invoice.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:20:21.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T04:04:52.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\vgppl\\Documents\\Korp_Teste_Victorgabrielcruz\\code\\backend\\services\\billing-service\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T03:52:11.726Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,36 +1,47 @@
+using Microsoft.EntityFrameworkCore;
+using stock_service.Data;
+using stock_service.Services;
+using stock_service.Services.Interfaces;
+using stock_service.Middleware;
 
-namespace stock_service
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllers();
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<IProductService, ProductService>();
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddCors(options =>
 {
-    public class Program
+    options.AddPolicy("AllowAngular", policy =>
     {
-        public static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args);
+        policy.WithOrigins("http://localhost:4200")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
-            // Add services to the container.
-
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
-
-            var app = builder.Build();
-
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
-
-            app.UseHttpsRedirection();
-
-            app.UseAuthorization();
+var app = builder.Build();
 
 
-            app.MapControllers();
+app.UseMiddleware<ExceptionMiddleware>();
 
-            app.Run();
-        }
-    }
-}
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Stock Service V1");
+    c.RoutePrefix = string.Empty; 
+});
+
+app.UseCors("AllowAngular");
+
+
+app.UseAuthorization();
+app.MapControllers();
+
+app.Run();

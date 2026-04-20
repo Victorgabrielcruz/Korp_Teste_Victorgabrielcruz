@@ -1,0 +1,40 @@
+<h2>Criar Nota Fiscal</h2>
+
+<div class="form">
+  <select [(ngModel)]="selectedProductCode">
+    <option value="">Selecione um produto</option>
+    <option *ngFor="let p of products" [value]="p.code">
+      {{ p.name }} (Saldo: {{ p.quantity }})
+    </option>
+  </select>
+
+  <input type="number" [(ngModel)]="quantity" min="1" />
+
+  <button (click)="addItem()">Adicionar</button>
+</div>
+
+<hr />
+
+<h3>Itens da Nota</h3>
+
+<table *ngIf="items.length > 0">
+  <tr>
+    <th>Produto</th>
+    <th>Quantidade</th>
+    <th>Ação</th>
+  </tr>
+
+  <tr *ngFor="let item of items; let i = index">
+    <td>{{ getProductName(item.productCode) }}</td>
+    <td>{{ item.quantity }}</td>
+    <td>
+      <button (click)="removeItem(i)">Remover</button>
+    </td>
+  </tr>
+</table>
+
+<p *ngIf="items.length === 0">Nenhum item adicionado</p>
+
+<br />
+
+<button (click)="createInvoice()">Criar Nota</button>

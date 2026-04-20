@@ -1,0 +1,9 @@
+<h2>Cadastrar Produto</h2>
+
+<form (ngSubmit)="save()">
+  <input type="text" placeholder="Nome" [(ngModel)]="product.name" name="name" required />
+
+  <input type="number" placeholder="Quantidade inicial" [(ngModel)]="product.initialQuantity" name="initialQuantity" required />
+
+  <button type="submit">Salvar</button>
+</form>
